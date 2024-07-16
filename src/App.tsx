@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <div>Word</div>
+      <a href={"https://coiper.github.io/MovieSearcher/"}>Word</a>
     </>
   );
 }
