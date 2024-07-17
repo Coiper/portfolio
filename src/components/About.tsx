@@ -3,7 +3,7 @@ export default function About() {
     <section
       id="about"
       className="px-10 w-full flex flex-col lg:flex-row py-20 
-                       align-center bg-emerald-200 max-w-5xl mx-auto"
+                       align-center bg-orange-200 mx-auto"
     >
       <div className="flex-1">
         <img src="photo.jpg" alt="About" className="w-full h-full bg-cover" />
@@ -14,18 +14,18 @@ export default function About() {
       >
         <div>
           <h2
-            className="text-center text-emerald-500 
+            className="text-center text-orange-600 
                                    text-5xl font-bold"
           >
             About Me :
           </h2>
         </div>
-        <p>As I said, I am your friendly neighbourhood osm developer...</p>
-        <p>
-          I am a passionate self taught developer (which is quite a subjective
-          thing as i learnt from teachers on youtube so does that really counts?
-          idk). I am having an experience of about 4 years and had a deep
-          understanding of creating web products.
+        <p className="text-orange-500">
+          Больше восьми лет опыта в сфере IT. Занимал позиции тестировщика,
+          специалиста тех. поддержки и помощника руководителя отдела внедрения.
+          Хорошо знаком со всем жизненным циклом цифрового продукта. Последние
+          два года активно изучал HTML, CSS, JS и React, т.к. планирую связать
+          дальнейшую область профессиональной деятельности именно с разработкой.
         </p>
       </div>
     </section>

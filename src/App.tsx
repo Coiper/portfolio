@@ -3,7 +3,6 @@ import About from "./components/About.tsx";
 import Skills from "./components/Skills.tsx";
 import Projects from "./components/Projects.tsx";
 import Contact from "./components/Contact.tsx";
-import Footer from "./components/Footer.tsx";
 import Hero from "./components/Hero.tsx";
 
 export default function App() {
@@ -15,7 +14,6 @@ export default function App() {
       <Skills />
       <Projects />
       <Contact />
-      <Footer />
     </>
   );
 }

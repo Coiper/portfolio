@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
-    <section id="contact" className="my-40 align-center max-w-5xl mx-auto p-3">
-      <h2 className="text-5xl font-bold text-emerald-500 text-center">
+    <section id="contact" className="my-40 align-center mx-auto p-3">
+      <h2 className="text-5xl font-bold text-orange-500 text-center">
         Contact
       </h2>
       <div
@@ -11,20 +11,32 @@ export default function Contact() {
         <a
           rel="noreferrer"
           target="_blank"
-          className="text-center hover:underline"
-          href="https://instagram.com/geeks_for_geeks"
+          className="text-center text-orange-300 hover:underline hover:text-orange-600"
+          href="https://elliotcoiper@gmail.com"
         >
-          Instagram:
-          <span className="font-bold">@geeks_for_geeks</span>
+          Email:
+          <span className="font-bold text-orange-100">
+            {" "}
+            elliotcoiper@gmail.com
+          </span>
         </a>
         <a
           rel="noreferrer"
           target="_blank"
-          className="text-center hover:underline"
-          href="https://twitter.com/geeksforgeeks"
+          className="text-center text-orange-300 hover:underline hover:text-orange-600"
+          href="https://t.me/coiper"
         >
-          Twitter:
-          <span className="font-bold">@geeksforgeeks</span>
+          Telegram:
+          <span className="font-bold text-orange-100"> t.me/Coiper</span>
+        </a>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          className="text-center text-orange-300 hover:underline hover:text-orange-600"
+          href="https://www.linkedin.com/in/ananevilia/"
+        >
+          LinkedIn:
+          <span className="font-bold text-orange-100"> Ananev Ilia</span>
         </a>
       </div>
     </section>
