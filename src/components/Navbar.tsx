@@ -1,4 +1,9 @@
-export default function Navbar() {
+export default function Navbar({
+  tabContactRef,
+  tabAboutRef,
+  tabSkillsRef,
+  tabProjectsRef,
+}) {
   return (
     <nav
       className="w-full px-5 sm:px-10 py-5 shadow-xl 
@@ -14,44 +19,60 @@ export default function Navbar() {
         </h3>
         <ul className="flex gap-3 align-center p-1 flex-wrap">
           <li>
-            <a
+            <button
               className="text-sm text-orange-100 sm:text-base px-2 lg:px-5 
                                       py-2 transition rounded hover:text-white 
                                       hover:bg-orange-600"
-              href="#about"
+              onClick={() =>
+                tabAboutRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
             >
               About
-            </a>
+            </button>
           </li>
           <li>
-            <a
+            <button
               className="text-sm text-orange-100 sm:text-base px-2 lg:px-5 py-2 
                                       transition rounded hover:text-white 
                                       hover:bg-orange-600"
-              href="#skills"
+              onClick={() =>
+                tabSkillsRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
             >
-              Skills
-            </a>
+              Education & Experience
+            </button>
           </li>
           <li>
-            <a
+            <button
               className="text-sm text-orange-100 sm:text-base px-2 lg:px-5 py-2 
                                       transition rounded hover:text-white 
                                       hover:bg-orange-600"
-              href="#projects"
+              onClick={() =>
+                tabProjectsRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
             >
               Projects
-            </a>
+            </button>
           </li>
           <li>
-            <a
+            <button
               className="text-sm text-orange-100 sm:text-base px-2 lg:px-5 py-2 
                                       transition rounded hover:text-white 
                                       hover:bg-orange-600"
-              href="#contact"
+              onClick={() =>
+                tabContactRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
             >
               Contact
-            </a>
+            </button>
           </li>
         </ul>
       </div>

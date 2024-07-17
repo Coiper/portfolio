@@ -1,9 +1,13 @@
-export default function Skills() {
+export default function Skills({ tabSkillsRef }) {
   const skills = ["Python", "HTML", "CSS", "Javascript", "React", "NextJs"];
   return (
-    <section id="skills" className="px-10 w-full my-40 mx-auto">
+    <section
+      ref={tabSkillsRef}
+      id="skills"
+      className="px-10 w-full my-40 mx-auto"
+    >
       <h2 className="text-center text-6xl text-orange-500 font-bold">
-        My Skills...
+        Education & Experience
       </h2>
       <div
         className="mt-10 flex gap-5 justify-center 

@@ -1,6 +1,7 @@
-export default function Projects() {
+export default function Projects({ tabProjectsRef }) {
   return (
     <section
+      ref={tabProjectsRef}
       id="projects"
       className="my-20 w-full flex flex-col gap-5 align-center mx-auto"
     >

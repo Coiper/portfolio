@@ -1,6 +1,7 @@
-export default function About() {
+export default function About({ tabAboutRef }) {
   return (
     <section
+      ref={tabAboutRef}
       id="about"
       className="px-10 w-full flex flex-col lg:flex-row py-20 
                        align-center bg-orange-200 mx-auto"

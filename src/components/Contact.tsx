@@ -1,6 +1,10 @@
-export default function Contact() {
+export default function Contact({ tabContactRef }) {
   return (
-    <section id="contact" className="my-40 align-center mx-auto p-3">
+    <section
+      ref={tabContactRef}
+      id="contact"
+      className="my-40 align-center mx-auto p-3"
+    >
       <h2 className="text-5xl font-bold text-orange-500 text-center">
         Contact
       </h2>
