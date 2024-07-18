@@ -1,4 +1,8 @@
-export default function Skills({ tabSkillsRef }) {
+export default function Skills({
+  tabSkillsRef,
+}: {
+  tabSkillsRef: React.RefObject<HTMLDivElement>;
+}) {
   const skills = ["Python", "HTML", "CSS", "Javascript", "React", "NextJs"];
   return (
     <section

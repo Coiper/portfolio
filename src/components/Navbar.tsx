@@ -1,9 +1,16 @@
+interface NavbarPropTypes {
+  tabContactRef: React.RefObject<HTMLDivElement> | null;
+  tabAboutRef: React.RefObject<HTMLDivElement>;
+  tabSkillsRef: React.RefObject<HTMLDivElement>;
+  tabProjectsRef: React.RefObject<HTMLDivElement>;
+}
+
 export default function Navbar({
   tabContactRef,
   tabAboutRef,
   tabSkillsRef,
   tabProjectsRef,
-}) {
+}: NavbarPropTypes) {
   return (
     <nav
       className="w-full px-5 sm:px-10 py-5 shadow-xl 
@@ -24,7 +31,7 @@ export default function Navbar({
                                       py-2 transition rounded hover:text-white 
                                       hover:bg-orange-600"
               onClick={() =>
-                tabAboutRef.current?.scrollIntoView({
+                tabAboutRef?.current?.scrollIntoView({
                   behavior: "smooth",
                 })
               }
@@ -38,7 +45,7 @@ export default function Navbar({
                                       transition rounded hover:text-white 
                                       hover:bg-orange-600"
               onClick={() =>
-                tabSkillsRef.current?.scrollIntoView({
+                tabSkillsRef?.current?.scrollIntoView({
                   behavior: "smooth",
                 })
               }
@@ -52,7 +59,7 @@ export default function Navbar({
                                       transition rounded hover:text-white 
                                       hover:bg-orange-600"
               onClick={() =>
-                tabProjectsRef.current?.scrollIntoView({
+                tabProjectsRef?.current?.scrollIntoView({
                   behavior: "smooth",
                 })
               }
@@ -66,7 +73,7 @@ export default function Navbar({
                                       transition rounded hover:text-white 
                                       hover:bg-orange-600"
               onClick={() =>
-                tabContactRef.current?.scrollIntoView({
+                tabContactRef?.current?.scrollIntoView({
                   behavior: "smooth",
                 })
               }

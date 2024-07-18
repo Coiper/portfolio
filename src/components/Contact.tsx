@@ -1,4 +1,8 @@
-export default function Contact({ tabContactRef }) {
+export default function Contact({
+  tabContactRef,
+}: {
+  tabContactRef: React.RefObject<HTMLDivElement>;
+}) {
   return (
     <section
       ref={tabContactRef}

@@ -1,4 +1,8 @@
-export default function About({ tabAboutRef }) {
+export default function About({
+  tabAboutRef,
+}: {
+  tabAboutRef: React.RefObject<HTMLDivElement>;
+}) {
   return (
     <section
       ref={tabAboutRef}

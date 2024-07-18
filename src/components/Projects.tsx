@@ -1,4 +1,8 @@
-export default function Projects({ tabProjectsRef }) {
+export default function Projects({
+  tabProjectsRef,
+}: {
+  tabProjectsRef: React.RefObject<HTMLDivElement>;
+}) {
   return (
     <section
       ref={tabProjectsRef}
