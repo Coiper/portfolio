@@ -19,11 +19,11 @@ export default function Projects({
       >
         <div className="w-80 rounded">
           <a
-            href="https://www.geeksforgeeks.org/progress-tracker-using-react-and-local-storage/"
+            href="https://coiper.github.io/MovieSearcher/"
             className="w-full h-full"
           >
             <img
-              src="https://media.geeksforgeeks.org/wp-content/uploads/20230927120905/gfg.png"
+              src="movie-searcher.jpg"
               alt="Project 1"
               className="w-full h-full 
                                         bg-cover rounded"
@@ -34,14 +34,15 @@ export default function Projects({
           <h2 className="font-bold text-3xl text-center">
             <a
               className="hover:underline text-orange-600 hover:text-orange-600"
-              href="https://www.geeksforgeeks.org/progress-tracker-using-react-and-local-storage/"
+              href="https://coiper.github.io/MovieSearcher/"
             >
-              DSA Progress Tracker
+              Movie Searcher & Watched List
             </a>
           </h2>
           <p>
-            This is a project built on react which tracks your progess in dsa
-            and stores that in the local storage.
+            This project help searching movies and storing watched movies on
+            locale storage. Built using React, Typescript, Vite, React Hooks
+            (useState, useRef, useContext, Custom hooks)
           </p>
         </div>
       </div>
