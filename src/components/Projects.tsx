@@ -7,13 +7,13 @@ export default function Projects({
     <section
       ref={tabProjectsRef}
       id="projects"
-      className="my-20 w-full flex flex-col gap-5 align-center mx-auto"
+      className="my-20 w-full flex flex-col gap-6 align-center mx-auto"
     >
       <h2 className="text-5xl text-orange-500 font-bold text-center">
         My Projects
       </h2>
       <div
-        className="p-10 bg-orange-300 flex flex-col justify-center items-center
+        className="p-10 bg-orange-200 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-full"
       >
@@ -39,7 +39,7 @@ export default function Projects({
               Movie Searcher & Watched List
             </a>
           </h2>
-          <p>
+          <p className="text-orange-500">
             This project help searching movies and storing watched movies on
             locale storage. Built using React, Typescript, Vite, React Hooks
             (useState, useRef, useContext, Custom hooks)
@@ -47,7 +47,7 @@ export default function Projects({
         </div>
       </div>
       <div
-        className="p-10 bg-orange-300 flex flex-col justify-center items-center gap-5 
+        className="p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-full"
       >
@@ -72,7 +72,7 @@ export default function Projects({
               15 Puzzle Game
             </a>
           </h2>
-          <p>
+          <p className="text-orange-500">
             15 puzzle game is basically a tile-based game in which there are 16
             tiles out of which 1 tile is left empty and the remaining tiles are
             filled with numbers from 1 to 15 in random order. The user has to
