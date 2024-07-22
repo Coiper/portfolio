@@ -21,11 +21,17 @@ export default function Skills({
             <p className="text-orange-300 text-xl font-bold">Education</p>
             <ul className="ps-5 mt-2 space-y-1 list-disc list-inside">
               <li>
-                Kazan Institute of Economics, Management and Law, 2009-2012
+                <span className="font-bold">
+                  Kazan Institute of Economics, Management and Law,
+                </span>{" "}
+                <span className="text-orange-300"> 2009-2012</span>
                 <p>Applied Computer Science in Economics, Master's Degree</p>
               </li>
               <li>
-                Kazan State Technical University, 2006-2009
+                <span className="font-bold">
+                  Kazan State Technical University,{" "}
+                </span>
+                <span className="text-orange-300"> 2006-2009</span>
                 <p>
                   Automated Systems for Information Processing and Management
                 </p>
@@ -38,19 +44,22 @@ export default function Skills({
             </p>
             <ul className="ps-5 mt-2 space-y-1 list-disc list-inside">
               <li>
-                ООО "АВАНТА Солюшенс", 2022-2023
+                <span className="font-bold">JSC "АВАНТА Солюшенс",</span>
+                <span className="text-orange-300"> 2022-2023</span>
                 <p>QA Engineer, Procter & Gamble outsourcing project</p>
                 <p>End-to-end and regression testing</p>
               </li>
               <li>
-                ООО "ЦИТ "Бисофт" 2016-2018
+                <span className="font-bold">JSC "ЦИТ "Бисофт",</span>
+                <span className="text-orange-300"> 2016-2018</span>
                 <p>Technical support engineer</p>
                 <p>
                   Technical customer support. Training and consultancy service.
                 </p>
               </li>
               <li>
-                ООО "Горизонты роста" 2014-2016
+                <span className="font-bold">JSC "Горизонты роста",</span>
+                <span className="text-orange-300"> 2014-2016</span>
                 <p>Assistant project manager</p>
                 <p>
                   System implementation. Technical support. Developing
@@ -65,24 +74,43 @@ export default function Skills({
             </p>
             <ul className="ps-5 mt-2 space-y-1 list-disc list-inside">
               <li>
-                TypeScript 5+ Fundamentals, v4, 2024
+                <span className="font-bold">
+                  TypeScript 5+ Fundamentals, v4,{" "}
+                </span>
+                <span className="text-orange-300">2024</span>
                 <p>Frontend Masters, Web-Development</p>
               </li>
               <li>
-                The Ultimate React Course 2024: React, Next.js, Redux & More,
-                2024
+                <span className="font-bold">
+                  The Ultimate React Course 2024: React, Next.js, Redux & More,
+                </span>
+                <span className="text-orange-300"> 2024</span>
                 <p>Udemy, Web-Development</p>
               </li>
               <li>
-                The Complete JavaScript Course 2023: From Zero to Expert!, 2023
-                <p>Udemy, Web-Development</p>
+                <span className="font-bold">
+                  JavaScript Algorithms and Data Structures,
+                </span>
+                <span className="text-orange-300"> 2023</span>
+                <p>freeCodeCamp, Web-Development</p>
               </li>
               <li>
-                Google Data Analytics Professional Certificate, 2021
+                <span className="font-bold">
+                  Front End Development Libraries,
+                </span>
+                <span className="text-orange-300"> 2023</span>
+                <p>freeCodeCamp, Web-Development</p>
+              </li>
+              <li>
+                <span className="font-bold">
+                  Google Data Analytics Professional Certificate,
+                </span>
+                <span className="text-orange-300"> 2021</span>
                 <p>Google, Data Analytics</p>
               </li>
               <li>
-                IELTS General Training, 2018
+                <span className="font-bold">IELTS General Training,</span>
+                <span className="text-orange-300"> 2018</span>
                 <p>International Examination Centre, CEFR Level B2</p>
               </li>
             </ul>
