@@ -16,8 +16,7 @@ export default function Hero() {
           </h2>
         </div>
         <p className="text-center text-orange-100">
-          Created with Typescript, Tailwind CSS, React Hooks (useRef,
-          useContext, useState)
+          Created with React, Typescript, Tailwind CSS.
         </p>
       </div>
       <div className="flex size-56">

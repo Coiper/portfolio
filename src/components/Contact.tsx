@@ -19,12 +19,15 @@ export default function Contact({
         className="flex gap-5 justify-center 
                         my-10"
       >
-        <a href="https://elliotcoiper@gmail.com" className="flex-col">
-          <img className="w-10 h-10 m-auto hover:opacity-10" src="mail.png" />
+        <a
+          href="https://elliotcoiper@gmail.com"
+          className="flex-col hover:opacity-40"
+        >
+          <img className="w-10 h-10 m-auto" src="mail.png" />
           <a
             rel="noreferrer"
             target="_blank"
-            className="m-auto text-center text-orange-300 hover:underline hover:text-orange-600"
+            className="m-auto text-center text-orange-300"
             href="https://elliotcoiper@gmail.com"
           >
             Email:
@@ -37,33 +40,30 @@ export default function Contact({
 
         {/* Telegram  */}
 
-        <a href="https://t.me/coiper" className="flex-col">
-          <img
-            className="w-10 h-10 m-auto hover:opacity-10"
-            src="telegram.png"
-          />
+        <a href="https://t.me/coiper" className="flex-col hover:opacity-40">
+          <img className="w-10 h-10 m-auto" src="telegram.png" />
           <a
             rel="noreferrer"
             target="_blank"
-            className="m-auto text-center text-orange-300 hover:underline hover:text-orange-600"
+            className="m-auto text-center text-orange-300"
             href="https://t.me/coiper"
           >
             Telegram:
-            <span className="font-bold text-orange-100"> t.me/Coiper</span>
+            <span className="font-bold text-orange-100"> t.me/ananevilia</span>
           </a>
         </a>
 
         {/* LinkedIn */}
 
-        <a href="https://www.linkedin.com/in/ananevilia/" className="flex-col">
-          <img
-            className="w-10 h-10 m-auto hover:opacity-10"
-            src="linkedin.png"
-          />
+        <a
+          href="https://www.linkedin.com/in/ananevilia/"
+          className="flex-col hover:opacity-40"
+        >
+          <img className="w-10 h-10 m-auto " src="linkedin.png" />
           <a
             rel="noreferrer"
             target="_blank"
-            className="m-auto text-center text-orange-300 hover:underline hover:text-orange-600"
+            className="m-auto text-center text-orange-300"
             href="https://www.linkedin.com/in/ananevilia/"
           >
             <span>LinkedIn:</span>

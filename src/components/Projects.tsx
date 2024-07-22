@@ -18,7 +18,7 @@ export default function Projects({
       <div
         className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
-                            hover:shadow-xl hover:scale-[102%] w-full"
+                            hover:shadow-xl hover:scale-[102%] w-5/6"
       >
         <div className="w-80 rounded">
           <a
@@ -28,8 +28,7 @@ export default function Projects({
             <img
               src="movie-searcher.jpg"
               alt="Movie searcher"
-              className="w-full h-full 
-                                        bg-cover rounded"
+              className="w-full h-full bg-cover rounded"
             />
           </a>
         </div>
@@ -58,7 +57,7 @@ export default function Projects({
       <div
         className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
-                            hover:scale-[102%] w-full"
+                            hover:scale-[102%] w-5/6"
       >
         <div className="w-80 rounded">
           <a
@@ -87,8 +86,7 @@ export default function Projects({
             personalized user experience for accommodation workers. Built using{" "}
             <span className="font-bold">
               Vite, React Query, Styled Components, React Hook Form, Supabase,
-              with advanced compound component pattern, authentication, charts,
-              dark mode, professional application planning and development.{" "}
+              with authentication, charts and dark mode.{" "}
             </span>
             Deployed to Netlify.
           </p>
@@ -100,7 +98,7 @@ export default function Projects({
       <div
         className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
-                            hover:shadow-xl hover:scale-[102%] w-full"
+                            hover:shadow-xl hover:scale-[102%] w-5/6"
       >
         <div className="w-80 rounded">
           <a
@@ -137,7 +135,7 @@ export default function Projects({
       <div
         className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
-                            hover:scale-[102%] w-full"
+                            hover:scale-[102%] w-5/6"
       >
         <div className="w-80 rounded">
           <a
@@ -172,7 +170,7 @@ export default function Projects({
       <div
         className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
-                            hover:shadow-xl hover:scale-[102%] w-full"
+                            hover:shadow-xl hover:scale-[102%] w-5/6"
       >
         <div className="w-80 rounded">
           <a href="https://coiper.github.io/TextRPG/" className="w-full h-full">
@@ -206,7 +204,7 @@ export default function Projects({
       <div
         className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
-                            hover:scale-[102%] w-full"
+                            hover:scale-[102%] w-5/6"
       >
         <div className="w-80 rounded">
           <a
@@ -238,7 +236,7 @@ export default function Projects({
       <div
         className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
-                            hover:shadow-xl hover:scale-[102%] w-full"
+                            hover:shadow-xl hover:scale-[102%] w-5/6"
       >
         <div className="w-80 rounded">
           <a
@@ -271,7 +269,7 @@ export default function Projects({
       <div
         className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
-                            hover:scale-[102%] w-full"
+                            hover:scale-[102%] w-5/6"
       >
         <div className="w-80 rounded">
           <a
@@ -279,7 +277,7 @@ export default function Projects({
             className="w-full h-full"
           >
             <img
-              src="tj-garden.jpg"
+              src="todo-app.jpg"
               alt="Todo Application"
               className="w-full h-full bg-cover rounded"
             />
