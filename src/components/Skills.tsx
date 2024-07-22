@@ -50,6 +50,12 @@ export default function Skills({
                 <p>End-to-end and regression testing</p>
               </li>
               <li>
+                <span className="font-bold">Telus International,</span>
+                <span className="text-orange-300"> 2019-2022</span>
+                <p>Map Search Analyst</p>
+                <p>Online mapping and routing related tasks</p>
+              </li>
+              <li>
                 <span className="font-bold">JSC "ЦИТ "Бисофт",</span>
                 <span className="text-orange-300"> 2016-2018</span>
                 <p>Technical support engineer</p>
