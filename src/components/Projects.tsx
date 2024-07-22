@@ -16,7 +16,7 @@ export default function Projects({
       {/* Movie Seatcher Project */}
 
       <div
-        className="p-10 bg-orange-200 flex flex-col justify-center items-center
+        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-full"
       >
@@ -44,8 +44,11 @@ export default function Projects({
           </h2>
           <p className="text-orange-500">
             This project help searching movies and storing watched movies on
-            locale storage. Built using React, Typescript, Vite, Data Fetching,
-            React Hooks (useEffect, useState, useRef, useContext, Custom hooks)
+            locale storage. Built using{" "}
+            <span className="font-bold">
+              React, Typescript, Vite, Data Fetching, React Hooks (useEffect,
+              useState, useRef, useContext, Custom hooks).
+            </span>
           </p>
         </div>
       </div>
@@ -53,7 +56,7 @@ export default function Projects({
       {/* TJ Garden Project */}
 
       <div
-        className="p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
+        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-full"
       >
@@ -75,14 +78,19 @@ export default function Projects({
               className="hover:underline text-orange-600 hover:text-orange-600"
               href="https://tj-garden-hotel.netlify.app/"
             >
-              TJ Garden Hotel
+              TJ Garden Hotel Management
             </a>
           </h2>
           <p className="text-orange-500">
-            Built using React Query, Styled Components, React Hook Form,
-            Supabase, with advanced compound component pattern, authentication,
-            charts, dark mode, professional application planning and
-            development.
+            Project's aim is to simplify and optimize cabin management and
+            bookings. With the help of authentication, it ensures security and a
+            personalized user experience for accommodation workers. Built using{" "}
+            <span className="font-bold">
+              Vite, React Query, Styled Components, React Hook Form, Supabase,
+              with advanced compound component pattern, authentication, charts,
+              dark mode, professional application planning and development.{" "}
+            </span>
+            Deployed to Netlify.
           </p>
         </div>
       </div>
@@ -90,7 +98,7 @@ export default function Projects({
       {/* Music Player Project */}
 
       <div
-        className="p-10 bg-orange-200 flex flex-col justify-center items-center
+        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-full"
       >
@@ -117,9 +125,9 @@ export default function Projects({
             </a>
           </h2>
           <p className="text-orange-500">
-            This project help searching movies and storing watched movies on
-            locale storage. Built using React, Typescript, Vite, Data Fetching,
-            React Hooks (useEffect, useState, useRef, useContext, Custom hooks)
+            Simple music player that reminds famous old but gold Winamp
+            application. Built with{" "}
+            <span className="font-bold">Vanilla JS</span>.
           </p>
         </div>
       </div>
@@ -127,7 +135,7 @@ export default function Projects({
       {/* Platformer game project */}
 
       <div
-        className="p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
+        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-full"
       >
@@ -153,10 +161,8 @@ export default function Projects({
             </a>
           </h2>
           <p className="text-orange-500">
-            Built using React Query, Styled Components, React Hook Form,
-            Supabase, with advanced compound component pattern, authentication,
-            charts, dark mode, professional application planning and
-            development.
+            Simple platformer game where you have to reach milestones right to
+            the end. Built with <span className="font-bold">Vanilla JS</span>.
           </p>
         </div>
       </div>
@@ -164,7 +170,7 @@ export default function Projects({
       {/* RPG game project */}
 
       <div
-        className="p-10 bg-orange-200 flex flex-col justify-center items-center
+        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-full"
       >
@@ -188,9 +194,9 @@ export default function Projects({
             </a>
           </h2>
           <p className="text-orange-500">
-            This project help searching movies and storing watched movies on
-            locale storage. Built using React, Typescript, Vite, Data Fetching,
-            React Hooks (useEffect, useState, useRef, useContext, Custom hooks)
+            Simple Role Playing Game in which you have to beat monsters, gain
+            experience, buy weapons and defeat dragon in the end. Built with
+            <span className="font-bold">Vanilla JS</span>.
           </p>
         </div>
       </div>
@@ -198,7 +204,7 @@ export default function Projects({
       {/* Calorie counter  */}
 
       <div
-        className="p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
+        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-full"
       >
@@ -223,19 +229,14 @@ export default function Projects({
               Calorie Counter
             </a>
           </h2>
-          <p className="text-orange-500">
-            Built using React Query, Styled Components, React Hook Form,
-            Supabase, with advanced compound component pattern, authentication,
-            charts, dark mode, professional application planning and
-            development.
-          </p>
+          <p className="text-orange-500">Text</p>
         </div>
       </div>
 
       {/* Shopping cart */}
 
       <div
-        className="p-10 bg-orange-200 flex flex-col justify-center items-center
+        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-full"
       >
@@ -261,18 +262,14 @@ export default function Projects({
               Shopping Cart
             </a>
           </h2>
-          <p className="text-orange-500">
-            This project help searching movies and storing watched movies on
-            locale storage. Built using React, Typescript, Vite, Data Fetching,
-            React Hooks (useEffect, useState, useRef, useContext, Custom hooks)
-          </p>
+          <p className="text-orange-500">Text</p>
         </div>
       </div>
 
       {/* Todo App */}
 
       <div
-        className="p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
+        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-full"
       >
@@ -297,12 +294,7 @@ export default function Projects({
               Todo Application
             </a>
           </h2>
-          <p className="text-orange-500">
-            Built using React Query, Styled Components, React Hook Form,
-            Supabase, with advanced compound component pattern, authentication,
-            charts, dark mode, professional application planning and
-            development.
-          </p>
+          <p className="text-orange-500">Text</p>
         </div>
       </div>
     </section>

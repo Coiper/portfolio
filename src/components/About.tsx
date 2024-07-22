@@ -8,10 +8,14 @@ export default function About({
       ref={tabAboutRef}
       id="about"
       className="px-10 w-full flex flex-col lg:flex-row py-20 
-                       align-center bg-orange-200 mx-auto"
+                       align-center bg-orange-200 mx-auto rounded"
     >
       <div className="flex-1">
-        <img src="photo.jpg" alt="About" className="w-full h-full bg-cover" />
+        <img
+          src="photo.jpg"
+          alt="About"
+          className="rounded w-full h-full bg-cover"
+        />
       </div>
       <div
         className="flex-1 flex flex-col justify-center
