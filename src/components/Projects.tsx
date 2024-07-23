@@ -123,7 +123,7 @@ export default function Projects({
             </a>
           </h2>
           <p className="text-orange-500">
-            Simple music player that reminds famous old but gold Winamp
+            Simple music player that reminds of the famous old but gold Winamp
             application. Built with{" "}
             <span className="font-bold">Vanilla JS</span>.
           </p>
@@ -194,7 +194,7 @@ export default function Projects({
           <p className="text-orange-500">
             Simple Role Playing Game in which you have to beat monsters, gain
             experience, buy weapons and defeat dragon in the end. Built with
-            <span className="font-bold">Vanilla JS</span>.
+            <span className="font-bold"> Vanilla JS</span>.
           </p>
         </div>
       </div>
@@ -227,7 +227,11 @@ export default function Projects({
               Calorie Counter
             </a>
           </h2>
-          <p className="text-orange-500">Text</p>
+          <p className="text-orange-500">
+            Small calorie counter application that helps calculate your intake
+            and remaining calories due to daily budget. Built with
+            <span className="font-bold"> Vanilla JS</span>.
+          </p>
         </div>
       </div>
 
@@ -260,7 +264,11 @@ export default function Projects({
               Shopping Cart
             </a>
           </h2>
-          <p className="text-orange-500">Text</p>
+          <p className="text-orange-500">
+            Simple application that demonstrates shopping cart feature with
+            random desserts menu. Built with
+            <span className="font-bold"> Vanilla JS</span>.
+          </p>
         </div>
       </div>
 
@@ -292,7 +300,10 @@ export default function Projects({
               Todo Application
             </a>
           </h2>
-          <p className="text-orange-500">Text</p>
+          <p className="text-orange-500">
+            Small and simple Todo list application. Built with
+            <span className="font-bold"> Vanilla JS</span>.
+          </p>
         </div>
       </div>
     </section>

@@ -16,7 +16,7 @@ export default function Contact({
       {/* E-mail */}
 
       <div
-        className="flex gap-5 justify-center 
+        className="flex flex-col sm:flex-row gap-5 justify-center 
                         my-10"
       >
         <a
@@ -24,33 +24,23 @@ export default function Contact({
           className="flex-col hover:opacity-40"
         >
           <img className="w-10 h-10 m-auto" src="mail.png" />
-          <a
-            rel="noreferrer"
-            target="_blank"
-            className="m-auto text-center text-orange-300"
-            href="https://elliotcoiper@gmail.com"
-          >
+          <div className="m-auto text-center text-orange-300">
             Email:
             <span className="font-bold text-orange-100">
               {" "}
               elliotcoiper@gmail.com
             </span>
-          </a>
+          </div>
         </a>
 
         {/* Telegram  */}
 
         <a href="https://t.me/coiper" className="flex-col hover:opacity-40">
           <img className="w-10 h-10 m-auto" src="telegram.png" />
-          <a
-            rel="noreferrer"
-            target="_blank"
-            className="m-auto text-center text-orange-300"
-            href="https://t.me/coiper"
-          >
+          <div className="m-auto text-center text-orange-300">
             Telegram:
             <span className="font-bold text-orange-100"> t.me/ananevilia</span>
-          </a>
+          </div>
         </a>
 
         {/* LinkedIn */}
@@ -60,15 +50,10 @@ export default function Contact({
           className="flex-col hover:opacity-40"
         >
           <img className="w-10 h-10 m-auto " src="linkedin.png" />
-          <a
-            rel="noreferrer"
-            target="_blank"
-            className="m-auto text-center text-orange-300"
-            href="https://www.linkedin.com/in/ananevilia/"
-          >
+          <div className="m-auto text-center text-orange-300">
             <span>LinkedIn:</span>
             <span className="font-bold text-orange-100"> Ananev Ilia</span>
-          </a>
+          </div>
         </a>
       </div>
     </section>
