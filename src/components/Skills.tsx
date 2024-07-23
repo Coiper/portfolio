@@ -1,8 +1,12 @@
+import { useContext } from "react";
+import { LanguageContext } from "./LanguageProvider";
+
 export default function Skills({
   tabSkillsRef,
 }: {
   tabSkillsRef: React.RefObject<HTMLDivElement>;
 }) {
+  const language = useContext(LanguageContext);
   return (
     <section
       ref={tabSkillsRef}
@@ -10,7 +14,9 @@ export default function Skills({
       className="px-10 w-full my-40 mx-auto"
     >
       <h2 className="text-center text-6xl text-orange-500 font-bold">
-        Education & Experience
+        {language.language != "EN"
+          ? "Education & Experience"
+          : "Образование и опыт"}
       </h2>
       <div
         className="mt-10 flex gap-5 justify-center 
@@ -18,65 +24,121 @@ export default function Skills({
       >
         <ol className="space-y-4 text-orange-100 list-inside">
           <li>
-            <p className="text-orange-300 text-xl font-bold">Education</p>
+            <p className="text-orange-300 text-xl font-bold">
+              {language.language != "EN" ? "Education" : "Образование"}
+            </p>
             <ul className="ps-5 mt-2 space-y-1 list-disc list-inside">
               <li>
                 <span className="font-bold">
-                  Kazan Institute of Economics, Management and Law,
+                  {language.language != "EN"
+                    ? "Kazan Institute of Economics, Management and Law,"
+                    : "Институт экономики, управления и права, Казань,"}
                 </span>{" "}
                 <span className="text-orange-300"> 2009-2012</span>
-                <p>Applied Computer Science in Economics, Master's Degree</p>
+                <p>
+                  {language.language != "EN"
+                    ? "Applied Computer Science in Economics, Master's Degree"
+                    : "Прикладная информатика в экономике, Высшее специальное"}
+                </p>
               </li>
               <li>
                 <span className="font-bold">
-                  Kazan State Technical University,{" "}
+                  {language.language != "EN"
+                    ? "Kazan State Technical University,"
+                    : "Казанский государственный технический университет,"}{" "}
                 </span>
                 <span className="text-orange-300"> 2006-2009</span>
                 <p>
-                  Automated Systems for Information Processing and Management
+                  {language.language != "EN"
+                    ? "Automated Systems for Information Processing and Management"
+                    : "Автоматизированные системы обработки информации и управления"}
                 </p>
               </li>
             </ul>
           </li>
           <li>
             <p className="text-orange-300 text-xl font-bold">
-              Experience in IT
+              {language.language != "EN"
+                ? "Experience in IT"
+                : "Опыт работы в IT"}
             </p>
             <ul className="ps-5 mt-2 space-y-1 list-disc list-inside">
               <li>
-                <span className="font-bold">JSC "АВАНТА Солюшенс",</span>
+                <span className="font-bold">
+                  {language.language != "EN"
+                    ? 'JSC "AVANTA Solutions",'
+                    : 'ООО "АВАНТА Солюшенс"'}
+                </span>
                 <span className="text-orange-300"> 2022-2023</span>
-                <p>QA Engineer, Procter & Gamble outsourcing project</p>
-                <p>End-to-end and regression testing</p>
+                <p>
+                  {language.language != "EN"
+                    ? "QA Analyst, Procter & Gamble outsourcing project"
+                    : "QA Аналитик, Тестировщик SAP"}
+                </p>
+                <p>
+                  {language.language != "EN"
+                    ? "End-to-end and regression testing"
+                    : "End-to-end и регрессионное тестирование"}
+                </p>
               </li>
               <li>
                 <span className="font-bold">Telus International,</span>
                 <span className="text-orange-300"> 2019-2022</span>
-                <p>Map Search Analyst</p>
-                <p>Online mapping and routing related tasks</p>
-              </li>
-              <li>
-                <span className="font-bold">JSC "ЦИТ "Бисофт",</span>
-                <span className="text-orange-300"> 2016-2018</span>
-                <p>Technical support engineer</p>
                 <p>
-                  Technical customer support. Training and consultancy service.
+                  {language.language != "EN"
+                    ? "Map Search Analyst"
+                    : "Аналитик поисковой оптимизации"}
+                </p>
+                <p>
+                  {language.language != "EN"
+                    ? "Online mapping and routing related tasks"
+                    : "Оптимизация картографического сервиса"}
                 </p>
               </li>
               <li>
-                <span className="font-bold">JSC "Горизонты роста",</span>
-                <span className="text-orange-300"> 2014-2016</span>
-                <p>Assistant project manager</p>
+                <span className="font-bold">
+                  {language.language != "EN"
+                    ? 'JSC "CIT "Bisoft",'
+                    : 'ООО "ЦИТ "Бисофт"'}
+                </span>
+                <span className="text-orange-300"> 2016-2018</span>
                 <p>
-                  System implementation. Technical support. Developing
-                  instructions and technical specifications.
+                  {" "}
+                  {language.language != "EN"
+                    ? "Technical support engineer"
+                    : "Инженер технической поддержки"}
+                </p>
+                <p>
+                  {language.language != "EN"
+                    ? "Technical customer support. Training and consultancy service."
+                    : "Осуществление тех. поддержки. Обучение и консультации использования."}
+                </p>
+              </li>
+              <li>
+                <span className="font-bold">
+                  {language.language != "EN"
+                    ? 'JSC "Gorizonty rosta",'
+                    : 'ООО "Горизонты роста'}
+                </span>
+                <span className="text-orange-300"> 2014-2016</span>
+                <p>
+                  {language.language != "EN"
+                    ? "Assistant project manager"
+                    : "Помощник руководителя проекта"}
+                </p>
+                <p>
+                  {language.language != "EN"
+                    ? "System implementation. Technical support. Developing instructions and technical specifications."
+                    : "Внедрение системы. Тех. поддержка. Написание инструкций и технических спецификаций."}
                 </p>
               </li>
             </ul>
           </li>
           <li>
             <p className="text-orange-300 text-xl font-bold">
-              Educational courses and exams
+              {language.language != "EN"
+                ? "Educational courses and exams"
+                : "Обучающие курсы и программы"}
             </p>
             <ul className="ps-5 mt-2 space-y-1 list-disc list-inside">
               <li>
@@ -84,40 +146,65 @@ export default function Skills({
                   TypeScript 5+ Fundamentals, v4,{" "}
                 </span>
                 <span className="text-orange-300">2024</span>
-                <p>Frontend Masters, Web-Development</p>
+                <p>
+                  {language.language != "EN"
+                    ? "Frontend Masters, Web-Development"
+                    : "Frontend Masters, Веб-разработка"}
+                </p>
               </li>
               <li>
                 <span className="font-bold">
                   The Ultimate React Course 2024: React, Next.js, Redux & More,
                 </span>
                 <span className="text-orange-300"> 2024</span>
-                <p>Udemy, Web-Development</p>
+                <p>
+                  {" "}
+                  {language.language != "EN"
+                    ? "Udemy, Web-Development"
+                    : "Udemy, Веб-разработка"}
+                </p>
               </li>
               <li>
                 <span className="font-bold">
                   JavaScript Algorithms and Data Structures,
                 </span>
                 <span className="text-orange-300"> 2023</span>
-                <p>freeCodeCamp, Web-Development</p>
+                <p>
+                  {language.language != "EN"
+                    ? "freeCodeCamp, Web-Development"
+                    : "freeCodeCamp, Веб-разработка"}
+                </p>
               </li>
               <li>
                 <span className="font-bold">
                   Front End Development Libraries,
                 </span>
                 <span className="text-orange-300"> 2023</span>
-                <p>freeCodeCamp, Web-Development</p>
+                <p>
+                  {language.language != "EN"
+                    ? "freeCodeCamp, Web-Development"
+                    : "freeCodeCamp, Веб-разработка"}
+                </p>
               </li>
               <li>
                 <span className="font-bold">
                   Google Data Analytics Professional Certificate,
                 </span>
                 <span className="text-orange-300"> 2021</span>
-                <p>Google, Data Analytics</p>
+                <p>
+                  {language.language != "EN"
+                    ? "Google, Data Analytics"
+                    : "Google, Дата-аналитика"}
+                </p>
               </li>
               <li>
                 <span className="font-bold">IELTS General Training,</span>
                 <span className="text-orange-300"> 2018</span>
-                <p>International Examination Centre, CEFR Level B2</p>
+                <p>
+                  {language.language != "EN"
+                    ? "International Examination Centre, CEFR Level B2"
+                    : "Международный экзаменационный центр, Оценка CEFR B2"}
+                </p>
               </li>
             </ul>
           </li>

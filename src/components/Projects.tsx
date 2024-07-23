@@ -1,8 +1,12 @@
+import { useContext } from "react";
+import { LanguageContext } from "./LanguageProvider";
+
 export default function Projects({
   tabProjectsRef,
 }: {
   tabProjectsRef: React.RefObject<HTMLDivElement>;
 }) {
+  const language = useContext(LanguageContext);
   return (
     <section
       ref={tabProjectsRef}
@@ -10,7 +14,7 @@ export default function Projects({
       className="my-20 w-full flex flex-col gap-6 align-center mx-auto"
     >
       <h2 className="text-5xl text-orange-500 font-bold text-center">
-        My Projects
+        {language.language != "EN" ? "My Projects" : "Мои проекты"}
       </h2>
 
       {/* Movie Seatcher Project */}

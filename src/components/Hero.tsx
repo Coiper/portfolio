@@ -1,4 +1,8 @@
+import { useContext } from "react";
+import { LanguageContext } from "./LanguageProvider";
+
 export default function Hero() {
+  const language = useContext(LanguageContext);
   return (
     <section
       id="hero"
@@ -9,14 +13,20 @@ export default function Hero() {
       <div className="flex-1 flex flex-col justify-center items-center gap-5">
         <div>
           <h4 className="text-center text-orange-100 text-xl font-bold">
-            Hi and welcome to
+            {language.language != "EN"
+              ? "Hi and welcome to"
+              : "Привет и добро пожаловать на"}
           </h4>
           <h2 className="text-center text-orange-500 text-5xl font-bold">
-            My Portfolio Website
+            {language.language != "EN"
+              ? "My Portfolio Website"
+              : "Мой Сайт-Портфолио"}
           </h2>
         </div>
         <p className="text-center text-orange-100">
-          Created with React, Typescript, Tailwind CSS.
+          {language.language != "EN"
+            ? "Built using React, Typescript, Tailwind CSS."
+            : "Создан при помощи React, Typescript, Tailwind CSS."}
         </p>
       </div>
       <div className="flex size-56">

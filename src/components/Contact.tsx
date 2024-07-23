@@ -1,8 +1,12 @@
+import { useContext } from "react";
+import { LanguageContext } from "./LanguageProvider";
+
 export default function Contact({
   tabContactRef,
 }: {
   tabContactRef: React.RefObject<HTMLDivElement>;
 }) {
+  const language = useContext(LanguageContext);
   return (
     <section
       ref={tabContactRef}
@@ -10,7 +14,7 @@ export default function Contact({
       className="my-40 align-center mx-auto p-3"
     >
       <h2 className="text-5xl font-bold text-orange-500 text-center">
-        Contact
+        {language.language != "EN" ? "Contact" : "Контакты"}
       </h2>
 
       {/* E-mail */}

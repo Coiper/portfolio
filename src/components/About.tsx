@@ -1,8 +1,12 @@
+import { useContext } from "react";
+import { LanguageContext } from "./LanguageProvider";
+
 export default function About({
   tabAboutRef,
 }: {
   tabAboutRef: React.RefObject<HTMLDivElement>;
 }) {
+  const language = useContext(LanguageContext);
   return (
     <section
       ref={tabAboutRef}
@@ -26,7 +30,7 @@ export default function About({
             className="text-center text-orange-600 
                                    text-5xl font-bold"
           >
-            About Me :
+            {language.language != "EN" ? "About Me :" : "Обо мне :"}
           </h2>
         </div>
         <p className="text-orange-500">

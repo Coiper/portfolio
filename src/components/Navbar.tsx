@@ -1,3 +1,7 @@
+import { useContext } from "react";
+import { LanguageSwitcher } from "./LanguageSwitcher";
+import { LanguageContext } from "./LanguageProvider";
+
 interface NavbarPropTypes {
   tabContactRef: React.RefObject<HTMLDivElement> | null;
   tabAboutRef: React.RefObject<HTMLDivElement>;
@@ -11,6 +15,7 @@ export default function Navbar({
   tabSkillsRef,
   tabProjectsRef,
 }: NavbarPropTypes) {
+  const language = useContext(LanguageContext);
   return (
     <nav
       className="w-full px-5 sm:px-10 py-5 shadow-xl 
@@ -36,7 +41,7 @@ export default function Navbar({
                 })
               }
             >
-              About
+              {language.language != "EN" ? "About" : "Обо мне"}
             </button>
           </li>
           <li>
@@ -50,7 +55,9 @@ export default function Navbar({
                 })
               }
             >
-              Education & Experience
+              {language.language != "EN"
+                ? "Education & Experience"
+                : "Образование и опыт"}
             </button>
           </li>
           <li>
@@ -64,7 +71,7 @@ export default function Navbar({
                 })
               }
             >
-              Projects
+              {language.language != "EN" ? "Projects" : "Проекты"}
             </button>
           </li>
           <li>
@@ -78,10 +85,11 @@ export default function Navbar({
                 })
               }
             >
-              Contact
+              {language.language != "EN" ? "Contact" : "Контакты"}
             </button>
           </li>
         </ul>
+        <LanguageSwitcher />
       </div>
     </nav>
   );
