@@ -24,7 +24,7 @@ export default function Projects({
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-5/6"
       >
-        <div className="w-80 rounded">
+        <div className="w-80 rounded overflow-hidden">
           <a
             href="https://coiper.github.io/MovieSearcher/"
             className="w-full h-full"
@@ -32,7 +32,7 @@ export default function Projects({
             <img
               src="movie-searcher.jpg"
               alt="Movie searcher"
-              className="w-full h-full bg-cover rounded"
+              className="w-full h-full rounded hover:scale-110 hover:opacity-80 transition duration-500 ease-in-out"
             />
           </a>
         </div>
@@ -66,7 +66,7 @@ export default function Projects({
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-5/6"
       >
-        <div className="w-80 rounded">
+        <div className="w-80 rounded overflow-hidden">
           <a
             href="https://tj-garden-hotel.netlify.app/"
             className="w-full h-full"
@@ -74,7 +74,7 @@ export default function Projects({
             <img
               src="tj-garden.jpg"
               alt="TJ Garden Hotel"
-              className="w-full h-full bg-cover rounded"
+              className="w-full h-full rounded hover:scale-110 hover:opacity-80 transition duration-500 ease-in-out"
             />
           </a>
         </div>
@@ -112,7 +112,7 @@ export default function Projects({
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-5/6"
       >
-        <div className="w-80 rounded">
+        <div className="w-80 rounded overflow-hidden">
           <a
             href="https://coiper.github.io/Music%20Player/"
             className="w-full h-full"
@@ -120,8 +120,7 @@ export default function Projects({
             <img
               src="music-player.jpg"
               alt="Music player"
-              className="w-full h-full 
-                                        bg-cover rounded"
+              className="w-full h-full rounded hover:scale-110 hover:opacity-80 transition duration-500 ease-in-out"
             />
           </a>
         </div>
@@ -150,7 +149,7 @@ export default function Projects({
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-5/6"
       >
-        <div className="w-80 rounded">
+        <div className="w-80 rounded overflow-hidden">
           <a
             href="https://coiper.github.io/Platformer%20Game/"
             className="w-full h-full"
@@ -158,7 +157,7 @@ export default function Projects({
             <img
               src="platformer.jpg"
               alt="Simple Platformer Game"
-              className="w-full h-full bg-cover rounded"
+              className="w-full h-full rounded hover:scale-110 hover:opacity-80 transition duration-500 ease-in-out"
             />
           </a>
         </div>
@@ -189,13 +188,12 @@ export default function Projects({
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-5/6"
       >
-        <div className="w-80 rounded">
+        <div className="w-80 rounded overflow-hidden">
           <a href="https://coiper.github.io/TextRPG/" className="w-full h-full">
             <img
               src="rpg-game.jpg"
               alt="Simple RPG Game"
-              className="w-full h-full 
-                                        bg-cover rounded"
+              className="w-full h-full rounded hover:scale-110 hover:opacity-80 transition duration-500 ease-in-out"
             />
           </a>
         </div>
@@ -226,7 +224,7 @@ export default function Projects({
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-5/6"
       >
-        <div className="w-80 rounded">
+        <div className="w-80 rounded overflow-hidden">
           <a
             href="https://coiper.github.io/Calorie%20Counter/"
             className="w-full h-full"
@@ -234,7 +232,7 @@ export default function Projects({
             <img
               src="calorie-counter.jpg"
               alt="Calorie Counter"
-              className="w-full h-full bg-cover rounded"
+              className="w-full h-full rounded hover:scale-110 hover:opacity-80 transition duration-500 ease-in-out"
             />
           </a>
         </div>
@@ -265,7 +263,7 @@ export default function Projects({
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-5/6"
       >
-        <div className="w-80 rounded">
+        <div className="w-80 rounded overflow-hidden">
           <a
             href="https://coiper.github.io/Shopping%20Cart/"
             className="w-full h-full"
@@ -273,8 +271,7 @@ export default function Projects({
             <img
               src="shopping-cart.jpg"
               alt="Shopping Cart"
-              className="w-full h-full 
-                                        bg-cover rounded"
+              className="w-full h-full rounded hover:scale-110 hover:opacity-80 transition duration-500 ease-in-out"
             />
           </a>
         </div>
@@ -303,7 +300,7 @@ export default function Projects({
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-5/6"
       >
-        <div className="w-80 rounded">
+        <div className="w-80 rounded overflow-hidden">
           <a
             href="https://coiper.github.io/Todo%20App/"
             className="w-full h-full"
@@ -311,7 +308,7 @@ export default function Projects({
             <img
               src="todo-app.jpg"
               alt="Todo Application"
-              className="w-full h-full bg-cover rounded"
+              className="w-full h-full rounded hover:scale-110 hover:opacity-80 transition duration-500 ease-in-out"
             />
           </a>
         </div>
