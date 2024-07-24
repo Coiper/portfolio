@@ -20,7 +20,7 @@ export default function Projects({
       {/* Movie Seatcher Project */}
 
       <div
-        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
+        className="rounded p-10 bg-gradient-to-b from-stone-700  to-stone-800 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-5/6"
       >
@@ -39,7 +39,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="hover:underline text-orange-600 hover:text-orange-600"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
               href="https://coiper.github.io/MovieSearcher/"
             >
               {language.language != "EN"
@@ -47,7 +47,7 @@ export default function Projects({
                 : "Поисковик фильмов"}
             </a>
           </h2>
-          <p className="text-orange-500">
+          <p className="text-orange-200">
             {language.language != "EN"
               ? "This project help searching movies and storing watched movies in locale storage. Built using "
               : "Приложение позволяет находить фильмы по названию и сохранять информацию о просмотренных фильмах в локальном хранилище. Создано при помощи "}
@@ -62,7 +62,7 @@ export default function Projects({
       {/* TJ Garden Project */}
 
       <div
-        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
+        className="rounded p-10 bg-gradient-to-b from-stone-700  to-stone-800 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-5/6"
       >
@@ -81,7 +81,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="hover:underline text-orange-600 hover:text-orange-600"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
               href="https://tj-garden-hotel.netlify.app/"
             >
               {language.language != "EN"
@@ -89,13 +89,13 @@ export default function Projects({
                 : "Управление TJ Garden отелем"}
             </a>
           </h2>
-          <p className="text-orange-500">
+          <p className="text-orange-200">
             {language.language != "EN"
               ? "Project's aim is to simplify and optimize cabin management and bookings. With the help of authentication, it ensures security and a personalized user experience for accommodation workers. Built using "
               : "Цель проекта упростить и оптимизировать менеджмент работы отеля и букинга. Используя инструмент аутентификации, приложение гарантирует безопасность использования для работников отеля. Создано при помощи "}
             <span className="font-bold">
               {language.language != "EN"
-                ? "Vite, React Query, Styled Components, React Hook Form, Supabase, with authentication, charts and dark mode."
+                ? "Vite, React Query, Styled Components, React Hook Form, Supabase, with authentication, charts and dark mode. "
                 : "Vite, React Query, Styled Components, React Hook Form, Supabase, c аутентификацией, графиками и тёмной темой. "}
             </span>
             {language.language != "EN"
@@ -108,7 +108,7 @@ export default function Projects({
       {/* Music Player Project */}
 
       <div
-        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
+        className="rounded p-10 bg-gradient-to-b from-stone-700  to-stone-800 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-5/6"
       >
@@ -127,15 +127,15 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="hover:underline text-orange-600 hover:text-orange-600"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
               href="https://coiper.github.io/Music%20Player/"
             >
               {language.language != "EN" ? "Music Player" : "Аудиоплеер"}
             </a>
           </h2>
-          <p className="text-orange-500">
+          <p className="text-orange-200">
             {language.language != "EN"
-              ? "Simple music player that reminds of the famous old but gold Winamp application. Built with"
+              ? "Simple music player that reminds of the famous old but gold Winamp application. Built with "
               : "Простой музыкальный проигрыватель, который напоминает старый добрый Winamp. Создан при помощи "}
             <span className="font-bold">Vanilla JS</span>.
           </p>
@@ -145,7 +145,7 @@ export default function Projects({
       {/* Platformer game project */}
 
       <div
-        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
+        className="rounded p-10 bg-gradient-to-b from-stone-700  to-stone-800 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-5/6"
       >
@@ -164,7 +164,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="hover:underline text-orange-600 hover:text-orange-600"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
               href="https://coiper.github.io/Platformer%20Game/"
             >
               {language.language != "EN"
@@ -172,7 +172,7 @@ export default function Projects({
                 : "Незамысловатая игра платформер"}
             </a>
           </h2>
-          <p className="text-orange-500">
+          <p className="text-orange-200">
             {language.language != "EN"
               ? "Simple platformer game where you have to reach milestones right to the end. Built with "
               : "Простая игра платформер, в которой нужно добираться до контрольных точек и дойти до финиша. Создана при помощи "}
@@ -184,7 +184,7 @@ export default function Projects({
       {/* RPG game project */}
 
       <div
-        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
+        className="rounded p-10 bg-gradient-to-b from-stone-700  to-stone-800 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-5/6"
       >
@@ -200,7 +200,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="hover:underline text-orange-600 hover:text-orange-600"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
               href="https://coiper.github.io/TextRPG/"
             >
               {language.language != "EN"
@@ -208,7 +208,7 @@ export default function Projects({
                 : "Простая RPG игра"}
             </a>
           </h2>
-          <p className="text-orange-500">
+          <p className="text-orange-200">
             {language.language != "EN"
               ? "Simple Role Playing Game in which you have to beat monsters, gain experience, buy weapons and defeat dragon in the end. Built with "
               : "Простая текстовая ролевая игра, в которой нужно побеждать монстров, набирать опыт, покупать оружие и, в конце концов, сразиться с драконом. Создана при помощи "}
@@ -220,7 +220,7 @@ export default function Projects({
       {/* Calorie counter  */}
 
       <div
-        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
+        className="rounded p-10 bg-gradient-to-b from-stone-700  to-stone-800 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-5/6"
       >
@@ -239,7 +239,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="hover:underline text-orange-600 hover:text-orange-600"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
               href="https://coiper.github.io/Calorie%20Counter/"
             >
               {language.language != "EN"
@@ -247,7 +247,7 @@ export default function Projects({
                 : "Счётчик калорий"}
             </a>
           </h2>
-          <p className="text-orange-500">
+          <p className="text-orange-200">
             {language.language != "EN"
               ? "Small calorie counter application that helps calculate your intake and remaining calories due to daily budget. Built with "
               : "Маленький счётчик калорий, который помогает посчитать потребление согласно заданной дневной нормы. Создан с "}
@@ -259,7 +259,7 @@ export default function Projects({
       {/* Shopping cart */}
 
       <div
-        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center
+        className="rounded p-10 bg-gradient-to-b from-stone-700  to-stone-800 flex flex-col justify-center items-center
                             gap-5 lg:flex-row mx-auto shadow transition 
                             hover:shadow-xl hover:scale-[102%] w-5/6"
       >
@@ -278,13 +278,13 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="hover:underline text-orange-600 hover:text-orange-600"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
               href="https://coiper.github.io/Shopping%20Cart/"
             >
               {language.language != "EN" ? "Shopping Cart" : "Корзина покупок"}
             </a>
           </h2>
-          <p className="text-orange-500">
+          <p className="text-orange-200">
             {language.language != "EN"
               ? "Simple application that demonstrates shopping cart feature with random desserts menu. Built with "
               : "Простое приложение, которое демонстрирует работу корзины покупок на примере меню из десертов. Создана при помощи "}
@@ -296,7 +296,7 @@ export default function Projects({
       {/* Todo App */}
 
       <div
-        className="rounded p-10 bg-orange-200 flex flex-col justify-center items-center gap-5 
+        className="rounded p-10 bg-gradient-to-b from-stone-700  to-stone-800 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse mx-auto shadow transition hover:shadow-xl 
                             hover:scale-[102%] w-5/6"
       >
@@ -315,13 +315,13 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="hover:underline text-orange-600 hover:text-orange-600"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
               href="https://coiper.github.io/Todo%20App/"
             >
               {language.language != "EN" ? "Todo Application" : "Список дел"}
             </a>
           </h2>
-          <p className="text-orange-500">
+          <p className="text-orange-200">
             {language.language != "EN"
               ? "Small and simple Todo list application. Built with "
               : "Маленькое и просто приложение для ведения списка дел. Создано при помощи "}

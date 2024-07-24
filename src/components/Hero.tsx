@@ -28,7 +28,7 @@ export default function Hero() {
             ? "Built using React, Typescript, Tailwind CSS"
             : "Создан при помощи React, Typescript, Tailwind CSS"}
         </p>
-        <div className="bg-orange-100 hover:bg-gray-400 text-gray-800 font-bold py-1 px-2 rounded inline-flex items-center">
+        <div className="bg-orange-100 hover:bg-stone-700 text-stone-800 hover:text-stone-900 font-bold py-1 px-2 rounded inline-flex items-center">
           <img src="downloadPDF.png" className="size-7" />
           <a href="Ananev-Ilia_CV_RU.pdf" download="Ananev Ilia">
             {language.language != "EN" ? " Download CV" : "Скачать резюме"}
