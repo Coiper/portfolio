@@ -111,7 +111,7 @@ export default function Skills({
                 <p>
                   {language.language != "EN"
                     ? "Technical customer support. Training and consultancy service."
-                    : "Осуществление тех. поддержки. Обучение и консультации использования."}
+                    : "Осуществление тех. поддержки. Обучение и консультации пользователей."}
                 </p>
               </li>
               <li>
