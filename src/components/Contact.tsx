@@ -39,7 +39,7 @@ export default function Contact({
 
         {/* Telegram  */}
 
-        <a href="https://t.me/coiper" className="flex-col hover:opacity-40">
+        <a href="https://t.me/ananevilia" className="flex-col hover:opacity-40">
           <img className="w-10 h-10 m-auto" src="telegram.png" />
           <div className="m-auto text-center text-orange-300">
             Telegram:
