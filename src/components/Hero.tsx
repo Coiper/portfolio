@@ -25,8 +25,8 @@ export default function Hero() {
         </div>
         <p className="text-center text-orange-100">
           {language.language != "EN"
-            ? "Built using React, Typescript, Tailwind CSS."
-            : "Создан при помощи React, Typescript, Tailwind CSS."}
+            ? "Built using React, Typescript, Tailwind CSS"
+            : "Создан при помощи React, Typescript, Tailwind CSS"}
         </p>
       </div>
       <div className="flex size-56">

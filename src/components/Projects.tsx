@@ -42,12 +42,15 @@ export default function Projects({
               className="hover:underline text-orange-600 hover:text-orange-600"
               href="https://coiper.github.io/MovieSearcher/"
             >
-              Movie Searcher & Watched List
+              {language.language != "EN"
+                ? "Movie Searcher & Watched List"
+                : "Поисковик фильмов"}
             </a>
           </h2>
           <p className="text-orange-500">
-            This project help searching movies and storing watched movies on
-            locale storage. Built using{" "}
+            {language.language != "EN"
+              ? "This project help searching movies and storing watched movies in locale storage. Built using "
+              : "Приложение позволяет находить фильмы по названию и сохранять информацию о просмотренных фильмах в локальном хранилище. Создано при помощи "}
             <span className="font-bold">
               React, Typescript, Vite, Data Fetching, React Hooks (useEffect,
               useState, useRef, useContext, Custom hooks).
@@ -81,18 +84,23 @@ export default function Projects({
               className="hover:underline text-orange-600 hover:text-orange-600"
               href="https://tj-garden-hotel.netlify.app/"
             >
-              TJ Garden Hotel Management
+              {language.language != "EN"
+                ? "TJ Garden Hotel Management"
+                : "Управление TJ Garden отелем"}
             </a>
           </h2>
           <p className="text-orange-500">
-            Project's aim is to simplify and optimize cabin management and
-            bookings. With the help of authentication, it ensures security and a
-            personalized user experience for accommodation workers. Built using{" "}
+            {language.language != "EN"
+              ? "Project's aim is to simplify and optimize cabin management and bookings. With the help of authentication, it ensures security and a personalized user experience for accommodation workers. Built using "
+              : "Цель проекта упростить и оптимизировать менеджмент работы отеля и букинга. Используя инструмент аутентификации, приложение гарантирует безопасность использования для работников отеля. Создано при помощи "}
             <span className="font-bold">
-              Vite, React Query, Styled Components, React Hook Form, Supabase,
-              with authentication, charts and dark mode.{" "}
+              {language.language != "EN"
+                ? "Vite, React Query, Styled Components, React Hook Form, Supabase, with authentication, charts and dark mode."
+                : "Vite, React Query, Styled Components, React Hook Form, Supabase, c аутентификацией, графиками и тёмной темой. "}
             </span>
-            Deployed to Netlify.
+            {language.language != "EN"
+              ? "Deployed to Netlify."
+              : "Развернуто на Netlify."}
           </p>
         </div>
       </div>
@@ -123,12 +131,13 @@ export default function Projects({
               className="hover:underline text-orange-600 hover:text-orange-600"
               href="https://coiper.github.io/Music%20Player/"
             >
-              Music Player
+              {language.language != "EN" ? "Music Player" : "Аудиоплеер"}
             </a>
           </h2>
           <p className="text-orange-500">
-            Simple music player that reminds of the famous old but gold Winamp
-            application. Built with{" "}
+            {language.language != "EN"
+              ? "Simple music player that reminds of the famous old but gold Winamp application. Built with"
+              : "Простой музыкальный проигрыватель, который напоминает старый добрый Winamp. Создан при помощи "}
             <span className="font-bold">Vanilla JS</span>.
           </p>
         </div>
@@ -159,12 +168,16 @@ export default function Projects({
               className="hover:underline text-orange-600 hover:text-orange-600"
               href="https://coiper.github.io/Platformer%20Game/"
             >
-              Simple Platformer Game
+              {language.language != "EN"
+                ? "Simple Platformer Game"
+                : "Незамысловатая игра платформер"}
             </a>
           </h2>
           <p className="text-orange-500">
-            Simple platformer game where you have to reach milestones right to
-            the end. Built with <span className="font-bold">Vanilla JS</span>.
+            {language.language != "EN"
+              ? "Simple platformer game where you have to reach milestones right to the end. Built with "
+              : "Простая игра платформер, в которой нужно добираться до контрольных точек и дойти до финиша. Создана при помощи "}
+            <span className="font-bold">Vanilla JS</span>.
           </p>
         </div>
       </div>
@@ -192,12 +205,15 @@ export default function Projects({
               className="hover:underline text-orange-600 hover:text-orange-600"
               href="https://coiper.github.io/TextRPG/"
             >
-              Simple RPG Game
+              {language.language != "EN"
+                ? "Simple RPG Game"
+                : "Простая RPG игра"}
             </a>
           </h2>
           <p className="text-orange-500">
-            Simple Role Playing Game in which you have to beat monsters, gain
-            experience, buy weapons and defeat dragon in the end. Built with
+            {language.language != "EN"
+              ? "Simple Role Playing Game in which you have to beat monsters, gain experience, buy weapons and defeat dragon in the end. Built with "
+              : "Простая текстовая ролевая игра, в которой нужно побеждать монстров, набирать опыт, покупать оружие и, в конце концов, сразиться с драконом. Создана при помощи "}
             <span className="font-bold"> Vanilla JS</span>.
           </p>
         </div>
@@ -228,12 +244,15 @@ export default function Projects({
               className="hover:underline text-orange-600 hover:text-orange-600"
               href="https://coiper.github.io/Calorie%20Counter/"
             >
-              Calorie Counter
+              {language.language != "EN"
+                ? "Calorie Counter"
+                : "Счётчик калорий"}
             </a>
           </h2>
           <p className="text-orange-500">
-            Small calorie counter application that helps calculate your intake
-            and remaining calories due to daily budget. Built with
+            {language.language != "EN"
+              ? "Small calorie counter application that helps calculate your intake and remaining calories due to daily budget. Built with "
+              : "Маленький счётчик калорий, который помогает посчитать потребление согласно заданной дневной нормы. Создан с "}
             <span className="font-bold"> Vanilla JS</span>.
           </p>
         </div>
@@ -265,12 +284,13 @@ export default function Projects({
               className="hover:underline text-orange-600 hover:text-orange-600"
               href="https://coiper.github.io/Shopping%20Cart/"
             >
-              Shopping Cart
+              {language.language != "EN" ? "Shopping Cart" : "Корзина покупок"}
             </a>
           </h2>
           <p className="text-orange-500">
-            Simple application that demonstrates shopping cart feature with
-            random desserts menu. Built with
+            {language.language != "EN"
+              ? "Simple application that demonstrates shopping cart feature with random desserts menu. Built with "
+              : "Простое приложение, которое демонстрирует работу корзины покупок на примере меню из десертов. Создана при помощи "}
             <span className="font-bold"> Vanilla JS</span>.
           </p>
         </div>
@@ -301,11 +321,13 @@ export default function Projects({
               className="hover:underline text-orange-600 hover:text-orange-600"
               href="https://coiper.github.io/Todo%20App/"
             >
-              Todo Application
+              {language.language != "EN" ? "Todo Application" : "Список дел"}
             </a>
           </h2>
           <p className="text-orange-500">
-            Small and simple Todo list application. Built with
+            {language.language != "EN"
+              ? "Small and simple Todo list application. Built with "
+              : "Маленькое и просто приложение для ведения списка дел. Создано при помощи "}
             <span className="font-bold"> Vanilla JS</span>.
           </p>
         </div>

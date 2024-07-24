@@ -27,7 +27,7 @@ export default function Navbar({
                             items-center mx-auto"
       >
         <h3 className="text-3xl text-orange-500 font-bold">
-          Ananev Ilia's Portfolio
+          {language.language != "EN" ? "Ananev Ilia" : "Ананьев Илья"}
         </h3>
         <ul className="flex gap-3 align-center p-1 flex-wrap">
           <li>
