@@ -47,7 +47,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:opacity-40"
               href="https://coiper.github.io/MovieSearcher/"
             >
               {language.language != "EN"
@@ -96,7 +96,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:opacity-40"
               href="https://tj-garden-hotel.netlify.app/"
             >
               {language.language != "EN"
@@ -149,7 +149,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:opacity-40"
               href="https://coiper.github.io/Music%20Player/"
             >
               {language.language != "EN" ? "Music Player" : "Аудиоплеер"}
@@ -193,7 +193,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:opacity-40"
               href="https://coiper.github.io/Platformer%20Game/"
             >
               {language.language != "EN"
@@ -236,7 +236,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:opacity-40"
               href="https://coiper.github.io/TextRPG/"
             >
               {language.language != "EN"
@@ -282,7 +282,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:opacity-40"
               href="https://coiper.github.io/Calorie%20Counter/"
             >
               {language.language != "EN"
@@ -328,7 +328,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:opacity-40"
               href="https://coiper.github.io/Shopping%20Cart/"
             >
               {language.language != "EN" ? "Shopping Cart" : "Корзина покупок"}
@@ -372,7 +372,7 @@ export default function Projects({
         <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
           <h2 className="font-bold text-3xl text-center">
             <a
-              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:text-orange-500"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-orange-200 to-orange-300 hover:opacity-40"
               href="https://coiper.github.io/Todo%20App/"
             >
               {language.language != "EN" ? "Todo Application" : "Список дел"}
