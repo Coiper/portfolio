@@ -30,7 +30,14 @@ export default function Hero() {
         </p>
         <div className="bg-orange-100 hover:bg-stone-700 transition duration-200 ease-in-out text-stone-800 hover:text-stone-900 font-bold py-1 px-2 rounded inline-flex items-center">
           <img src="downloadPDF.png" className="size-7" />
-          <a href="Ananev-Ilia_CV_RU.pdf" download="Ananev Ilia">
+          <a
+            href={
+              language.language != "EN"
+                ? "Ananev-Ilia_CV_EN.pdf"
+                : "Ananev-Ilia_CV_RU.pdf"
+            }
+            download="Ananev Ilia"
+          >
             {language.language != "EN" ? " Download CV" : "Скачать резюме"}
           </a>
         </div>
